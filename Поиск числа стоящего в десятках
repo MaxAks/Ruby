@@ -1,0 +1,14 @@
+x = gets
+nubmer=x.to_i
+puts(nubmer/ 10 % 10)
+
+=begin
+
+Метод 1
+puts gets[-3].to_i
+
+Метод 2
+n = gets
+puts n[-3]
+
+=end
