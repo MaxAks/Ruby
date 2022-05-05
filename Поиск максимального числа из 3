@@ -1,0 +1,8 @@
+x, y, z = gets.to_i, gets.to_i, gets.to_i
+max = x
+if y >x
+    max = y
+elsif z> x
+    max = z
+end
+puts max
