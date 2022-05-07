@@ -1,0 +1,22 @@
+module Car
+    class Volvo
+        @@wheels =4
+        def how_many_wheels
+            puts @@wheels
+        end
+      end
+end
+
+module Truck
+    class Volvo
+        @@wheels =6
+        def how_many_wheels
+            puts @@wheels
+        end
+      end
+end
+
+a1 = Car::Volvo.new
+a2 = Truck::Volvo.new
+a1.how_many_wheels
+a2.how_many_wheels
