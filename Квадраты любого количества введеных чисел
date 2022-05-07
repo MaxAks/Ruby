@@ -4,3 +4,10 @@ def square(*p)
   puts p[i]*p[i]
     end
 end
+
+# А МОЖНО ЕЩЕ КОРОЧЕ
+def squares(*p) 
+  p.each do |x|
+  puts x**2
+    end
+end
