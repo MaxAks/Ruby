@@ -1,0 +1,11 @@
+x = gets
+class Custom
+  def initialize(x)
+    @name = x
+  end
+  def to_s
+    @name 
+  end
+end
+p = Custom.new(x)
+puts p.to_s
